@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="154dp"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:src="@drawable/banner">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="328dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pelaksanaan">
+
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                app:cardCornerRadius="20dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Anda dinyatakan diterima di"
+                        android:textColor="#069550"
+                        android:textSize="12dp"
+                        tools:layout_editor_absoluteX="6dp"
+                        tools:layout_editor_absoluteY="67dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SMA Negeri 1 Bojonggede"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="98dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jalur Prestasi Kejuaraan"
+                        android:textSize="12dp"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="122dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/detail"
+                        tools:layout_editor_absoluteX="217dp"
+                        tools:layout_editor_absoluteY="75dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:src="@drawable/icon3"
+                        tools:layout_editor_absoluteX="-1dp"
+                        tools:layout_editor_absoluteY="-1dp">
+
+                    </ImageView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/rdi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:padding="12dp"
+                    android:text="Pengumuman Hasil Seleksi"
+                    android:textSize="16dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_marginTop="12dp"
+            android:scrollbarSize="16dp"
+            app:cardCornerRadius="20dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Layanan PPDB"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="35dp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frame1"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Info Sekolah PPDB"
+                    tools:layout_editor_absoluteX="71dp"
+                    tools:layout_editor_absoluteY="95dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_sosialisasi_ppdb"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="150dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_pendaftaran_ppdb"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="219dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sosialisasi PPDB"
+                    tools:layout_editor_absoluteX="71dp"
+                    tools:layout_editor_absoluteY="162dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pendaftaran PPDB Tahap 1"
+                    tools:layout_editor_absoluteX="71dp"
+                    tools:layout_editor_absoluteY="231dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/aw"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="298dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengumuman PPDB Tahap 1"
+                    tools:layout_editor_absoluteX="71dp"
+                    tools:layout_editor_absoluteY="316dp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_hotline"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="376dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hotline"
+                    tools:layout_editor_absoluteX="71dp"
+                    tools:layout_editor_absoluteY="398dp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="14dp"
+                    android:layout_height="12dp"
+                    app:srcCompat="@drawable/lokasi"
+                    tools:layout_editor_absoluteX="14dp"
+                    tools:layout_editor_absoluteY="57dp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kota Bandung"
+                    android:textSize="12dp"
+                    tools:layout_editor_absoluteX="28dp"
+                    tools:layout_editor_absoluteY="57dp" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_layanan_ppdb"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_arrow"
+                    tools:layout_editor_absoluteX="264dp"
+                    tools:layout_editor_absoluteY="95dp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_arrow"
+                    tools:layout_editor_absoluteX="264dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_arrow"
+                    tools:layout_editor_absoluteX="264dp"
+                    tools:layout_editor_absoluteY="233dp" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_arrow"
+                    tools:layout_editor_absoluteX="264dp"
+                    tools:layout_editor_absoluteY="319dp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_arrow"
+                    tools:layout_editor_absoluteX="264dp"
+                    tools:layout_editor_absoluteY="397dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
